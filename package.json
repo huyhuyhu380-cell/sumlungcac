@@ -1,0 +1,30 @@
+{
+  "name": "ai-taixiu-md5-pro",
+  "version": "6.0.0",
+  "description": "AI Tài Xỉu MD5 Pro - 15 thuật toán phân tích cầu + Tracker ✅/❌",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "md5",
+    "ai",
+    "prediction",
+    "markov",
+    "ngram",
+    "pattern"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.28.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
